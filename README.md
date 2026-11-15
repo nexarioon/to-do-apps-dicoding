@@ -1,13 +1,13 @@
-# To-Do Apps (Dicoding)
+# To-do apps
 
-A simple to-do list built with **vanilla JavaScript** — submission for the Dicoding "Front-End Web for Beginners" class.
+A to-do list in plain JavaScript, written for the Dicoding front-end class.
 
 ## Structure
 
 ```
 ├── index.html     # markup
 ├── css/           # styles
-├── js/script.js   # add / complete / delete logic and persistence
+├── js/script.js   # add, complete and delete logic
 └── assets/        # icons and images
 ```
 
@@ -23,4 +23,4 @@ npx serve .
 
 - Add, complete and delete tasks
 - Separate lists for unfinished and finished tasks
-- Data persisted in `localStorage`
+- Data saved in `localStorage`
