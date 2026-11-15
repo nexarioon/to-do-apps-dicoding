@@ -1,26 +1,26 @@
 # To-Do Apps (Dicoding)
 
-Aplikasi to-do list sederhana dengan **vanilla JavaScript** — submission kelas Dicoding "Belajar Membuat Front-End Web untuk Pemula".
+A simple to-do list built with **vanilla JavaScript** — submission for the Dicoding "Front-End Web for Beginners" class.
 
-## Struktur
+## Structure
 
 ```
-├── index.html     # markup utama
-├── css/           # styling
-├── js/script.js   # logika: tambah, centang, hapus, dan penyimpanan
-└── assets/        # ikon & gambar
+├── index.html     # markup
+├── css/           # styles
+├── js/script.js   # add / complete / delete logic and persistence
+└── assets/        # icons and images
 ```
 
-## Menjalankan
+## Run
 
-Buka `index.html` di browser, atau jalankan static server:
+Open `index.html` in a browser, or serve it locally:
 
 ```bash
 npx serve .
 ```
 
-## Fitur
+## Features
 
-- Tambah, selesaikan, dan hapus tugas
-- Pemisahan tugas belum selesai / sudah selesai
-- Data tersimpan di `localStorage`
+- Add, complete and delete tasks
+- Separate lists for unfinished and finished tasks
+- Data persisted in `localStorage`
